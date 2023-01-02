@@ -1,0 +1,38 @@
+/* Universal selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#first {
+    background-color: aqua;
+}
+
+.bg-blue {
+    background-color: blue;
+    color: white;
+}
+
+h1 {
+    color: red;
+}
+
+div {
+    background-color: antiquewhite;
+}
+
+/* Grouping of selectors */
+#red, h3 {
+    background-color: red;
+}
+
+/* All the paragraphs with class red will have red color */
+p .red {
+    color: red;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+    border: 2px solid black;
+}
