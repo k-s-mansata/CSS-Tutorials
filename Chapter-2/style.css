@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    /* RGBA, A: Alpha, for light to dark */
+    background-color: rgba(255, 0, 0, 0.616);
+    color: white;
+    height: 200px;
+}
+
+.green {
+    background-color: green;
+    color: aqua;
+}
+
+.container {
+    width: 344px;
+    height: 344px;
+    background-color: red;
+    background-image: url("https://source.unsplash.com/random");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    border: 2px solid red;
+    /* Shorthand notation */
+    /* background: red url("https://source.unsplash.com/random") no-repeat scroll top right; */
+}
