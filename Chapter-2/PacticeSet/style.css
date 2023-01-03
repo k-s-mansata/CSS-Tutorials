@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    background-color: darkblue;
+  }
+  
+  .navbar-item {
+    color: lightblue;
+  }
+  
+  .dark-red {
+    color: darkred;
+  }
+  
+  .bg-img {
+    height: 300px;
+    width: 300px;
+    background: url("https://source.unsplash.com/random");
+    background-size: 250px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .non-scrolling-img {
+    border: 1px solid blue;
+    height: 800px;
+    width: 800px;
+    background: url("https://source.unsplash.com/random");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
