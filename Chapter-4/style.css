@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box1 {
+    display: inline;
+    /* Height and Width/ Top Margin and Top padding will not be applied on the display type inline, to do so, set the property to inline-block */
+    width: 430px;
+    height: 300px;
+    background-color: red;
+}
+
+.box2 {
+    display: inline;
+    width: 430px;
+    height: 300px;
+    background-color: black;
+    text-align: center;
+}
+
+/* Other Display properties: Display block, Display none  */
+/* Display:none-> removes the block from DOM, visibility:hidded-> Hides the element but space will be occupied */
+
+/*Text and Font properties  */
+p {
+    background-color: red;
+    color: white;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    line-height: 1.5;
+    width: 550px;
+    height: 550px;
+    font-size: 36px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 500;
+    /* font-family: 'Courier New', Courier, monospace; Fallback, in order to choose another if one is not available, starting from left */
+}
+
+h3{
+    font-size: 34px;
+}
