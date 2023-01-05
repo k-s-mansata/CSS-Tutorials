@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transform</title>
+    <style>
+      .container{
+        background-color: red;
+        height: 65vh;
+      }
+      .box {
+        border: 2px solid black;
+        /* transform: translate(134px, 56px) rotate(0.5turn);
+        transform-origin: 0;  */
+        /* transform: scaleX(2.5); */
+        /* transform: skew(4deg, 6deg); */
+        /* transform: rotateX(50deg); */
+      }
+
+      img {
+        width: 146px;
+        height: 455px;
+        /* transition-property: width;
+        transition-duration: 3s;
+        transition-timing-function: ease-in;
+        transition-delay: 3s; */
+        transition: width 1s ease-in-out, height 4s ease-in;
+      }
+      img:hover {
+        width:56px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <img
+          id="myImg"
+          src="https://source.unsplash.com/random"
+          alt="Random image from Unsplash"
+        />
+        <button id="btn">Toggle</button>
+      </div>
+    </div>
+  </body>
+  <script>
+    myImg.style.width = "146px";
+    myImg.style.height = "16px";
+    btn.addEventListener("click", () => {
+        myImg.style.height = "456px";
+        if(myImg.style.width == '546px')
+        {
+            myImg.style.width = "146px";
+        }
+        else {
+            myImg.style.width = "546px";
+        }
+    });
+  </script>
+</html>

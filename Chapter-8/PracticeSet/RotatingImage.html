@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotating Image</title>
+    <style>
+      @keyframes rotate {
+        0%{
+          transform: rotate(0deg);
+        }
+        50%{
+          transform: rotate(180deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      img {
+        animation: rotate 1s ease-in infinite ;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img
+        src="https://source.unsplash.com/random"
+        alt="Random image from unsplash"
+        width="122px"
+      />
+    </main>
+  </body>
+</html>
