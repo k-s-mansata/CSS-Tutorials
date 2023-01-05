@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    background-color: yellow;
+    grid-row-gap: 9px;
+    grid-column-gap: 19px;
+    /* grid-gap: 9px 19px - shorthand for row and column gap*/
+    grid-template-columns: auto auto;
+}
+
+.item {
+    background-color: aquamarine;
+    border: 2px solid red;
+}

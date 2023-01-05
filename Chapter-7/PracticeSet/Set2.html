@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Set 7 - Question 2</title>
+    <style>
+      *{
+          margin: 0;
+          padding: 0;
+      }
+      header {
+          background-color: black;
+          color: white;
+      }
+      nav {
+          display: grid;
+          grid-template-columns: auto auto;
+      }
+      .logo {
+          background-image: url("https://source.unsplash.com/random");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 8vh;
+          width: 8vh;
+          border-radius: 50%;
+          border: 2px solid white;
+          margin: 1vh 0;
+      }
+      ul {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          justify-content: right;
+          align-items: center;
+      }
+      ul li {
+          display: inline-block;
+          padding: 0 5vh;
+      }
+      .container {
+          display: grid;
+      }
+      .img-area {
+          background-image: url("https://source.unsplash.com/random");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 40vh;
+          width: 100%;
+          border: 1px solid blue;
+          margin: auto;
+      }
+      .profile-area {
+          display: grid;
+          grid-template-columns: auto auto auto;
+          justify-content:space-evenly;
+          align-items: center;
+      }
+      .profile{
+          background-image: url("https://source.unsplash.com/random");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 35vh;
+          width: 30vw;
+          border: 1px solid blue;
+          margin: 5vh auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"></div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="img-area"></div>
+      <div class="profile-area">
+        <div class="profile"></div>
+        <div class="profile"></div>
+        <div class="profile"></div>
+      </div>
+    </div>
+  </body>
+</html>

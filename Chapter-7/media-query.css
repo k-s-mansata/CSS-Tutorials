@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-color: red;
+    height: 34vh;
+}
+
+@media screen and (max-width: 800px) {
+    body{
+        background-color: brown;
+    }
+    .container{
+        background-color: yellow;
+        height: 34vh;
+    }
+}
